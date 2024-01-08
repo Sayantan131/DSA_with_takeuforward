@@ -42,7 +42,7 @@ void dosomething(int arr[], int n){
 int main(){
     int n = 5;
     int arr[n];
-    for(int i=0;i<=n-1;i++){
+    for(int i=0;i<n-1;i++){
         cin>>arr[i];
     }
     dosomething(arr,n);
