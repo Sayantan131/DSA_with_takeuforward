@@ -10,13 +10,27 @@ pattern3(int n){
     }
 }
 
+pattern4(int n){
+for(int i=1;i<=n;i++){
+    for(int j=1;j<=i;j++){
+        cout<<i<<" ";
+    }
+    cout<<endl;
+}
+}
+
+pattern5(int n){
+    for  
+}
+
+
 int main(){
     int t;
     cin>>t;
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-    pattern3(n);
+    pattern5(n);
     }
    
 }
