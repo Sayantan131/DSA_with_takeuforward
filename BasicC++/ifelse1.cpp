@@ -10,7 +10,7 @@ int main(){
     int age;
     cin>>age;
     if(age>=28){
-        cout<<"You are an adult!";
+        cout<<"You are an adult";
     }
     else{
         cout<<"You are not an adult";
