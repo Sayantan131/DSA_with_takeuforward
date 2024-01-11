@@ -40,6 +40,9 @@ pattern6(int n){
 }
 
 
+pattern7(int n){
+    
+}
 
 
 
