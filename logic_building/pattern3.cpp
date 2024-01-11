@@ -30,6 +30,18 @@ pattern5(int n){
     } 
 }
 
+pattern6(int n){
+    for(int i=0;i<n;i++){
+        for(int j=1;j<=n-i;j++){
+            cout<<j<<" ";
+        }
+        cout<<"\n";
+    }
+}
+
+
+
+
 
 int main(){
     int t;
@@ -37,7 +49,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-    pattern5(n);
+    pattern7(n);
     }
    
 }
