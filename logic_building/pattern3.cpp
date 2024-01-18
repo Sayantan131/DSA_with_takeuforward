@@ -100,16 +100,13 @@ pattern10(int n){
 
 pattern11(int n){
     for(int i=0;i<n;i++){
-        for(int j=0;j<i;j++){
+        int start = 1;
+        if(i%2==0) start = 1;
+        else start = 0;
+        for(int j=0;j<=i;j++){
             
-            if(i/2==0){
-                cout<<"s";
-                cout<<"1";
-            }
-            else{
-                cout<<"a";
-                cout<<"0";
-            }
+           cout<<start;
+           start=1-start; 
         }
         cout<<"\n";
     }
@@ -126,7 +123,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern13(n);
+   pattern11(n);
     }
    
 }
