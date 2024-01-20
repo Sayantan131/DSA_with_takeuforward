@@ -131,6 +131,17 @@ cout<<endl;
 }
 }
 
+pattern13(int n){
+    int a=1;
+    for(int i=0;i<=n;i++){
+        for(int j=0;j<i;j++){
+            cout<<a<<" ";
+            a=a+1;
+        }
+        cout<<"\n";
+    }
+}
+
 
 
 
@@ -140,7 +151,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern12(n);
+   pattern13(n);
     }
    
 }
