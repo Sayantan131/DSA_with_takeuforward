@@ -155,6 +155,21 @@ for(int i=0;i<n;i++){
 }
 
 
+pattern15(int n){
+    char ch=65;
+    for(int i=0;i<n;i++){
+        for(int j=n;j>i;j--){
+            cout<<ch<<" ";
+            ch++;
+        }
+
+        cout<<"\n";
+        ch = 65;
+    }
+}
+
+
+
 
 
 int main(){
@@ -163,7 +178,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern14(n);
+   pattern15(n);
     }
    
 }
