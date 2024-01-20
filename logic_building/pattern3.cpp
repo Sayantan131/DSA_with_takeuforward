@@ -142,6 +142,18 @@ pattern13(int n){
     }
 }
 
+pattern14(int n){
+char ch = 65;
+for(int i=0;i<n;i++){
+    for(int j=0;j<=i;j++){
+        cout<<ch;
+       ch++;
+    }
+     ch=65;
+    cout<<"\n";
+}
+}
+
 
 
 
@@ -151,7 +163,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern13(n);
+   pattern14(n);
     }
    
 }
