@@ -168,7 +168,23 @@ pattern15(int n){
     }
 }
 
+pattern16(int n){
+char ch = 65;
+for(int i=0;i<n;i++){
+    for(int j=0;j<=i;j++){
+        cout<<ch;
+      
+    }
+     ch++;
+    cout<<"\n";
+}
+}
 
+
+
+pattern17(int n){
+    
+}
 
 
 
@@ -178,7 +194,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern15(n);
+   pattern17(n);
     }
    
 }
