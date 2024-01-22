@@ -182,7 +182,7 @@ for(int i=0;i<n;i++){
 
 
 
-pattern17(int n){
+pattern18(int n){
     
 }
 
