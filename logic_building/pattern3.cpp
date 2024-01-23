@@ -203,6 +203,23 @@ pattern17(int n){
     }
 }
 
+pattern18(int n){
+     char startChar = 'A' + n - 1;
+    for(int i=0;i<n;i++){
+        char ch = startChar;
+        for(int j=0;j<=i;j++){
+            cout<<ch;
+            ch--;
+        }
+        cout<< "\n";
+           }
+}
+
+pattern19(int n){
+ 
+}
+
+
 
 
 int main(){
@@ -211,7 +228,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern17(n);
+   pattern18(n);
     }
    
 }
