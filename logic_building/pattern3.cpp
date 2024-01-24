@@ -228,7 +228,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern18(n);
+   pattern19(n);
     }
    
 }
