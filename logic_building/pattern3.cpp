@@ -249,6 +249,37 @@ in2 = in2-2;
 
 }
 
+pattern20(int n){
+   int space = 8;
+    for(int i=0;i<n;i++){
+        for(int j=1;j<=i+1;j++){
+            cout<<"*";
+        }
+        for(int j=0;j<space;j++){
+            cout<<" ";
+        }
+        for(int j=1;j<=i+1;j++){
+            cout<<"*";
+        }
+        space=space-2;
+        cout<<"\n";
+    }
+    int space1 = 2;
+    for(int i=0;i<n;i++){
+        for(int j=1;j<n-i;j++){
+            cout<<"*";
+        }
+        for(int j=0;j<space1;j++){
+            cout<<" ";
+        }
+         for(int j=1;j<n-i;j++){
+            cout<<"*";
+        }
+        space1 = space1+2;
+        cout<<"\n";
+    }
+}
+
 
 
 
@@ -258,7 +289,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern19(n);
+   pattern20(n);
     }
    
 }
