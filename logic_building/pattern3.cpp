@@ -296,13 +296,17 @@ pattern21(int n){
     }
 }
 
+pattern22(int n){
+    //i will do it later
+}
+
 int main(){
     int t;
     cin>>t;
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern21(n);
+   pattern22(n);
     }
    
 }
