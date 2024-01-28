@@ -299,6 +299,8 @@ pattern21(int n){
 pattern22(int n){
     //i will do it later
     //health is not good enough
+    //start from tomorrow
+    
 }
 
 int main(){
