@@ -1,11 +1,16 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-void explainpair(){
-    pair<int,int>p={1,3};
-    cout<<p.first<<" "<<p.second<<endl;
-    pair<int,pair<int,int>p={1,{3,4}};
-    cout<<p.first<<" "<<p.second.first<<" "<<p.second.second<<endl;
+int factorial(int n){
+    if(n == 0 || n==1){
+        return 1;
+    }else{
+        return n*factorial(n-1);
+    }
 }
 
-explainpair();
+int main(){
+    int num;
+    cin>>num;
+    cout<<"fac: "<<num<<"  " <<factorial(num);
+}
