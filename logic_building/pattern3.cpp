@@ -310,7 +310,7 @@ int main(){
     for(int i=0;i<t;i++){
     int n;
     cin>>n;
-   pattern22(n);
+   pattern21(n);
     }
    
 }
