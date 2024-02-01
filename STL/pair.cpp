@@ -34,6 +34,7 @@ int main(){
     int n;
     cin>>n;
    problem1(n);
+   //break for today
     }
    
 }
