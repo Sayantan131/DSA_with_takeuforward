@@ -38,3 +38,4 @@ int main(){
     }
    
 }
+//done up to divisor but divisor i have to see again 
