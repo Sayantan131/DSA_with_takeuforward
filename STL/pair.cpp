@@ -38,4 +38,4 @@ int main(){
     }
    
 }
-//done up to divisor but divisor i have to see again 
+//done up to divisor but divisor i have to see again break day time waste
