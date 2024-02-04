@@ -42,30 +42,22 @@ using namespace std;
 
 
 
+// 
+
+
+
 #include<bits/stdc++.h>
-
 using namespace std;
-
-bool isPrime(int N) {
-  for (int i = 2; i < N; i++) {
-    if (N % i == 0) {
-      return false;
-    }
-  }
-  return true;
-}
-int main() {
-
-  int n;
-  cin>>n;
-
-  bool ans = isPrime(n);
-  if (n != 1 && ans == true) {
-    cout << "Prime Number";
-  } else {
-    cout << "Non Prime Number";
-  }
-  return 0;
+int main()
+{
+	int num1 = 4, num2 = 8;
+	int ans;
+	for (int i = 1; i <= min(num1, num2); i++) {
+		if (num1 % i == 0 && num2 % i == 0) {
+			ans = i;
+		}
+	}
+	cout << "The GCD of the two numbers is "<<ans;
 }
 
 //done up to divisor but divisor i have to see again break day time waste
