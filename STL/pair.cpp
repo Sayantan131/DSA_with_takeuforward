@@ -60,4 +60,4 @@ int main()
 	cout << "The GCD of the two numbers is "<<ans;
 }
 
-//done up to divisor but divisor i have to see again break day time waste
+//done up to divisor but divisor i have to see again break day time waste break
