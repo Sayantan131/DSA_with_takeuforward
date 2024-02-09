@@ -10,7 +10,7 @@ void print(int i,int n){
     cout<<i<<endl;
 
 }
-
+//break day
 int main(){
     int n;
     cin>>n;
