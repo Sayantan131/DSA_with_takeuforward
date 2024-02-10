@@ -16,3 +16,5 @@ int main(){
     cin>>n;
     print(1,n);
 }
+
+///chegg applied
