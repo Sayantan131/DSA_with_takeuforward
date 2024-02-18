@@ -9,7 +9,7 @@ mul(int n){
     return n*mul(n-1);
 }
 
-//jaghra korechi
+//jaghra korechifarakh nahi pad raha hai
 
 
 
