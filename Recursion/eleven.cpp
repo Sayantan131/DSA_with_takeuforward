@@ -2,12 +2,15 @@
 using namespace std;
 
 void f(int i, int arr[], int n){
-    if(i>=n/2){
+    if(i>=n){
         return;
     }
-    swap(arr[i],arr[n-i-1]);
-    cout<<"Say";
-    f(i+1, arr, n);
+    // swap(arr[i],arr[n-i-1]);
+    int temp = arr[i];
+    arr[i] = arr[n];
+    arr[n] = temp;
+    
+    f(i+1, arr, n-1);
 }
 int main(){
     // #ifndef ONLINE_JUDGE
