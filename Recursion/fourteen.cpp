@@ -12,3 +12,6 @@ int main(){
     cout<<f(4);
     return 0;
 }
+
+
+//Time complexity (2^n) exponential
