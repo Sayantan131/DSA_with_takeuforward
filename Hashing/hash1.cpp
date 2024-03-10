@@ -20,7 +20,7 @@ for(int i=0;i<n;i++){
     while(q--){
         int number;
         cin>>number;
-        //fetch
+        //fetch item
         cout<<hash[number] << endl;
     }
     return 0;
