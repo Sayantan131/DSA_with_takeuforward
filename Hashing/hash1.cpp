@@ -23,5 +23,9 @@ for(int i=0;i<n;i++){
         //fetch items
         cout<<hash[number] << endl;
     }
-    return 0;
+    return 0;hashing 
 }
+
+
+
+//Hashing is going on
