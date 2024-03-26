@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-//precompute
+//pre computation 
 
 int hash[13] = {0};
 for(int i=0;i<n;i++){
